@@ -1,0 +1,13 @@
+<?php
+
+    function resume_theme(){
+        return array(
+            'resume' => array(
+                'variables' => array(
+                    'items' =>[],
+                    'records' => NULL,
+                    'title' => ''
+                )
+            )
+                );
+            }
