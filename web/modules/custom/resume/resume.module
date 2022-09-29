@@ -1,6 +1,11 @@
 <?php
-/*
- * @file
- * code for resume module
-*/
-?>
+    function resume_theme(){
+        return array(
+            'resumearray'=>array(
+                'variables'=>array(
+                    'res'=>array(),
+                ),
+                'template'=>'resume',
+            ),
+        );
+    }
